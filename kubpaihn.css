@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+a {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(57, 57, 57);
+    position: sticky;
+    top: 0;
+}
+
+p {
+    color: #fff;
+}
+
+img {
+    margin-top: 20px;
+}
