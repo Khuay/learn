@@ -1,0 +1,119 @@
+
+/********************************* body **************************************/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dadada;
+    margin: 0;
+    padding: 0;
+}
+
+
+/****************************  header  *************************************/
+.top-header {
+    background-color: rgb(57, 57, 57);
+    color: white;
+    position: sticky;
+    top: 0;
+
+    /***************************************************************************/
+    .menu-item {
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+
+
+/***************************** krng Learn chinese *********************************/
+.box{
+    background-color: #111;
+    max-width: auto;
+    margin: 10px 10px 20px;
+    padding: 10px 20px;
+
+    .box-text {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding: auto;
+    }
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+
+    /********** tag <div class="file"> ***********/
+    .阅读-file {
+        /******************** Click kub Download nai ti ni h hai to nung sue u tharng karng  ********************/
+        text-align: center;
+        background-color: #d9cdcd;
+        
+        /********** <h2> file-1 ***********/
+        .file-1 {
+            color: rgb(40, 61, 146);
+            text-align: center;
+        }
+
+        /****************** tag<a> color to nung sue *****************/
+        a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        
+        } 
+
+    }
+
+    .口语-file {
+        text-align: center;
+        background-color: #d9cdcd;
+
+        .file-2 {
+            color: rgb(40, 61, 146);
+            text-align: center;
+        }
+
+        a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        
+        } 
+    }
+
+    /********** tag <p> ***********/
+    p  {
+        color: rgb(40, 61, 146);
+        text-align: center;
+        font-weight: bold;
+        /* padding-bottom: 20px; */
+    }
+
+    /********** tag <a> ***********/
+    /* a {
+        color: black;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+            
+        } */
+
+}
+
+/*********************** footer ***********************/
+footer {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: gray;
+}
+
